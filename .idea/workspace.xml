@@ -20,24 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd07034-956c-4784-9e94-51c229f21902" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/AddressHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/BarHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/BulletHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/BuyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/CallHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/ItemsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/LabelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/ManagerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/MenuHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/MinibarHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/ShoppingcartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/SignHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/ToyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/repository/ShoppingcartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UserHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +39,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="freeLook/invalid/Spring" />
+    </ignored-facets>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -199,25 +190,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591518892459" />
-    <state width="1398" height="403" key="GridCell.Tab.0.bottom" timestamp="1591496878252">
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1591538825124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591496878252" />
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591538825124" />
     <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591470314556" />
-    <state width="1398" height="403" key="GridCell.Tab.0.center" timestamp="1591496878251">
+    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1591538825123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591496878251" />
+    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591538825123" />
     <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1591470314555" />
-    <state width="1398" height="403" key="GridCell.Tab.0.left" timestamp="1591496878250">
+    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1591538825122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591496878250" />
+    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591538825122" />
     <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1591470314553" />
-    <state width="1398" height="403" key="GridCell.Tab.0.right" timestamp="1591496878252">
+    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1591538825123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591496878252" />
+    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591538825123" />
     <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1591470314556" />
     <state x="650" y="95" width="598" height="735" key="find.popup" timestamp="1591514097328">
       <screen x="0" y="0" width="1440" height="900" />

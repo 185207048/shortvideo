@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import sun.tools.jconsole.JConsole;
 
 import java.util.List;
 
@@ -55,13 +56,15 @@ public class UserHandler {
     }
 
     @PostMapping(value = "/login")
-    public int Login(@RequestParam String username, @RequestParam String password){
-        User user = userRepository.findByUserNameAndPwd(username,password);
-        if(user != null){
-            int id = user.getUser_id();
-            return id;
-        }else{
-            return -1;
-        }
+    public User Login(@RequestParam String username, @RequestParam String password){
+       List<User> list = userRepository.findAll();
+       for(int i=0 ; i < list.size() ; i++){
+//           if(list[i].)
+           User user = list.get(i);
+           if(user.getUser_username() == username && user.getUser_password() == password){
+               return user;
+           }
+       }
+       return null;
     }
 }
