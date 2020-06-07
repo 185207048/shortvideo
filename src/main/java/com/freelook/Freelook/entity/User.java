@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.sql.Date;
 
 @Entity
 @Data
@@ -20,5 +21,8 @@ public class User {
     private String user_name; //用户名称
     private String user_signature; //用户签名
     private String user_sex; //用户性别
-//    private Date user_birth;    //用户生日
+    private Date user_birth;    //用户生日
+    private String user_phone;  //用户电话
+    private String user_code;   //用户代码
+    private String user_state;  //用户激活状态
 }
