@@ -20,4 +20,5 @@ public class Video {
     private String video_class;
     private String video_much;
     private Integer video_user_id;
+    private Integer video_state;
 }

@@ -3,10 +3,7 @@ package com.freelook.Freelook.controller;
 import com.freelook.Freelook.entity.User;
 import com.freelook.Freelook.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import sun.tools.jconsole.JConsole;
 
 import java.util.List;
@@ -17,8 +14,10 @@ public class UserHandler {
     @Autowired
     private UserRepository userRepository;
     private User user;
-    @PostMapping(value = "/register")
+    @CrossOrigin
+    @PostMapping(value="/register")
     public boolean Adduser(User user){ //添加
+        System.out.println(user);
         User result = userRepository.save(user);
         if(result == userRepository.save(user)){
             return true;
@@ -46,6 +45,7 @@ public class UserHandler {
     @PostMapping(value = "/userCheckAll")
     public List<User> CheckAlluser(){
         List<User> userList = userRepository.findAll();
+        System.out.println(userList);
         return userList;
     }
 
@@ -56,12 +56,18 @@ public class UserHandler {
     }
 
     @PostMapping(value = "/login")
-    public User Login(@RequestParam String username, @RequestParam String password){
+    public User Login(User user){
+        System.out.println(user);
        List<User> list = userRepository.findAll();
        for(int i=0 ; i < list.size() ; i++){
 //           if(list[i].)
-           User user = list.get(i);
-           if(user.getUser_username() == username && user.getUser_password() == password){
+           User re_user = list.get(i);
+//           System.out.println(re_user);
+//           System.out.println(re_user.getUser_username().equals( user.getUser_username()));
+//           System.out.println(user.getUser_username() );
+//           System.out.println(re_user.getUser_password());
+//           System.out.println(user.getUser_password());
+           if(re_user.getUser_username() .equals(user.getUser_username())  && re_user.getUser_password().equals(user.getUser_password())){
                return user;
            }
        }

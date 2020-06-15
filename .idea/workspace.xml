@@ -20,10 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd07034-956c-4784-9e94-51c229f21902" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Vlog1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/upload_status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614135234/agree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614135300/agree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614135709/agree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614135747/disagree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614140100/第四组.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614153616/Vlog1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200614181046/动物圈1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200615175152/动物圈1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200615175209/动物圈2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200615175331/动物圈1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200615175419/鬼畜1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/picture/20200615175615/动物圈2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/upload_status.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/controller/UserHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelook/Freelook/entity/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/controller/UserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/controller/UserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/controller/VideoHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/controller/VideoHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Label.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Label.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/MyError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/MyError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freelook/Freelook/entity/Video.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +104,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -80,11 +113,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.freelook.Freelook.repository" />
       <recent name="com.freelook.Freelook.controller" />
+      <recent name="com.freelook.Freelook.repository" />
       <recent name="com.freelook.Freelook.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="D:\springBootWorkSpace\freeLook\src\main\java\com\freelook\Freelook\entity" />
     </key>
   </component>
@@ -185,30 +220,41 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="429" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592130076128">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="429" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592130076128" />
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1591518892459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591518892459" />
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1591538825124">
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1592223563580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591538825124" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592223563580" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1592207436222" />
     <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1591470314556" />
-    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1591538825123">
+    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1592223563579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591538825123" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592223563579" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1592207436221" />
     <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1591470314555" />
-    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1591538825122">
+    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1592223563579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591538825122" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592223563579" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1592207436221" />
     <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1591470314553" />
-    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1591538825123">
+    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1592223563579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591538825123" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592223563579" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1592207436222" />
     <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1591470314556" />
     <state x="650" y="95" width="598" height="735" key="find.popup" timestamp="1591514097328">
       <screen x="0" y="0" width="1440" height="900" />

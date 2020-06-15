@@ -16,6 +16,6 @@ public class Label {
     private String label_name;
     private String label_type;
     private String label_key;
-    private Integer label_video_idItem;
+    private Integer label_video_id;
 
 }

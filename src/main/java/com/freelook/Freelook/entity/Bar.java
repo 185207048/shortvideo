@@ -17,6 +17,7 @@ public class Bar {
     private String bar_name;
     private Date bar_date;
     private String bar_key;
+    private int bar_state;
     private Integer bar_user_id;
 
 }
